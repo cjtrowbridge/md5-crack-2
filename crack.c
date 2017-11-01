@@ -154,7 +154,7 @@ int main(int argc, char *argv[])
     clock_gettime(CLOCK_PROCESS_CPUTIME_ID, &stop);
     double elapsed = (stop.tv_sec - start.tv_sec) * 1e6 + (stop.tv_nsec - start.tv_nsec) / 1e3;    // in microseconds
     
-    printf("===============\nElapsed Time: %lf sec\n\n",elapsed/1000);
+    printf("===============\nElapsed Time: %lf sec\n\n",elapsed/1000000);
     
     
 }
