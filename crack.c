@@ -114,7 +114,10 @@ int main(int argc, char *argv[])
     printf("Dictionary Size: %d\n====================\n",dictCount);
     
     
-    /* this doesnt work
+    
+    
+    //BEGIN GLORIOUS IN-MEMORY FUTURE////////////////////////////////////
+    /* This doesnt work
     
     //build a hashed dictionary in memory
     char ** dictHashed = malloc((dictCount+1) * sizeof(char*));
@@ -126,8 +129,10 @@ int main(int argc, char *argv[])
         dictHashed[i] = &hash;
     }
     
-    
     */
+    //END GLORIOUS IN-MEMORY FUTURE////////////////////////////////////
+    
+    
     
 
     // For each hash, try every entry in the dictionary.

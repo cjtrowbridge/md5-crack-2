@@ -2,7 +2,7 @@
 
 CC=clang
 CFLAGS=-g
-NUM_HASHES=100
+NUM_HASHES=20
 ROCKYOU=rockyou2000.txt
 
 all: hashpass crack
